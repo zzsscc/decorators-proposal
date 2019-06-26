@@ -1,0 +1,35 @@
+{
+  "name": "decorators-proposal",
+  "version": "1.0.0",
+  "description": "装饰器新提案",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzsscc/decorators-proposal.git"
+  },
+  "keywords": [
+    "decorators"
+  ],
+  "author": "zsc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zzsscc/decorators-proposal/issues"
+  },
+  "homepage": "https://github.com/zzsscc/decorators-proposal#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/preset-env": "^7.4.5"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@babel/register": "^7.4.4"
+  }
+}
